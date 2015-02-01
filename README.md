@@ -4,6 +4,8 @@
 
 [![Build Status](https://travis-ci.org/adform/Laboratory.Globus.svg?branch=master)](https://travis-ci.org/adform/Laboratory.Globus)
 
+You may find full information in **[WIKI](https://github.com/adform/Laboratory.Globus/wiki)**
+
 ### Overview
 
 A lot of modern product companies these days are seeking for better forms of organization that allow creative engineers to unleash their potential. [Hierarchical structures](http://en.wikipedia.org/wiki/Hierarchical_organization) with strong authocracy and traditional management doesn't work effectvely in an agile environment, and many companies, such as [Valve](http://www.bloomberg.com/bw/articles/2012-04-27/why-there-are-no-bosses-at-valve), [Spotify](http://techcrunch.com/2012/11/17/heres-how-spotify-scales-up-and-stays-agile-it-runs-squads-like-lean-startups/), [37signals](http://www.inc.com/magazine/20110401/jason-fried-why-i-run-a-flat-company.html), [Zappos](http://www.zapposinsights.com/about/holacracy) and many others are employing flat, network structures, where managers don't control people, but rather drive building of information system (network) that anyone can contribute to.    
@@ -29,5 +31,3 @@ Learning program will cover the following topics:
 * making web-app with Play2
 * deployment of Scala applications with Docker
 * monitoring and trouble-shooting
-
-For more information, please read [WIKI](https://github.com/adform/Laboratory.Globus/wiki)
