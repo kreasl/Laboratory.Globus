@@ -3,15 +3,17 @@ package com.adform.model
 /**
  * Created by Yury Talapila on 18.2.15.
  */
-class Employee(name: String, roles: List[Role]) {
-  
-  def addRole(role: Role) = Employee(name, roles :+ role)
 
-  def removeRole(role: Role) = Employee(name, roles.filter(_ != role))
+trait Profile {
+  val name: String
+  val roles: List[Role]
 
-  def hasRole(role: Role) = roles.exists(_ == role)
+  def applyRolesPermissions(operation: Any) = ???
 }
 
-object Employee {
-  def apply(name: String, roles: List[Role]) = new Employee(name, roles)
+case class Employee(name: String, roles: List[Role]) extends Profile {
+
+  def withRole(role: Role): List[Role] = roles :+ role
+  def withoutRole(role: Role): List[Role] = roles.filter(_ != role)
+  def hasRole(role: Role): Boolean = roles.exists(_ == role)
 }
