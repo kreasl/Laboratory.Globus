@@ -1,4 +1,4 @@
-package com.adform.kreasl.model
+package com.adform.model
 
 /**
  * Created by Yury Talapila on 18.2.15.
